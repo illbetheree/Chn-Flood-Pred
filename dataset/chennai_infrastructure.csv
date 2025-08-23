@@ -1,0 +1,20 @@
+name,type,latitude,longitude
+Government General Hospital,hospital,13.079,80.281
+Apollo Hospital,hospital,13.061,80.252
+Fortis Malar Hospital,hospital,12.999,80.262
+Stanley Medical College Hospital,hospital,13.108,80.289
+Vijaya Hospital,hospital,13.045,80.211
+MIOT International Hospital,hospital,13.016,80.179
+Kendriya Vidyalaya,school,13.004,80.234
+PSBB Senior Secondary School,school,13.040,80.243
+Loyola College,school,13.064,80.232
+Anna University,school,13.010,80.238
+IIT Madras,school,12.991,80.232
+Chennai Central Railway Station,transport,13.082,80.276
+Egmore Railway Station,transport,13.078,80.262
+Guindy Metro Station,transport,13.008,80.214
+Koyambedu Bus Terminus,transport,13.071,80.198
+Chennai International Airport,transport,12.994,80.180
+Teynampet Police Station,emergency,13.041,80.248
+Adyar Fire Station,emergency,13.004,80.256
+State Emergency Operation Centre,emergency,13.012,80.270

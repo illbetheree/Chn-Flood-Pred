@@ -206,7 +206,7 @@ with st.spinner("Loading assets and calculating base vulnerability..."):
         model, historical_data = load_model_and_history()
     else:
         st.error("Could not generate the base Flood Vulnerability Index. The application cannot proceed."); st.stop()
-
+st.info("Newer Gen Model is on the developement")
 st.sidebar.header("Dashboard Options")
 view_selection = st.sidebar.radio("Select View:", ("Current Risk", "24-Hour Forecasted Risk"))
 st.sidebar.header("Risk Simulator")
@@ -308,4 +308,5 @@ if base_fvi_gdf is not None and model is not None:
             m_forecast = create_map(forecast_risk_gdf, infra_df, 'forecasted_risk_norm', 'Normalized Forecasted Flood Risk', st.session_state.searched_location)
             st_folium(m_forecast, width=1200, height=600, returned_objects=[])
             st.subheader("24-Hour Rainfall Forecast Visualization")
+
             st.bar_chart(forecast_df.set_index('Timestamp')['predicted_rainfall'])
